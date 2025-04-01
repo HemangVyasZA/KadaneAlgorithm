@@ -11,18 +11,7 @@ class Program
         Console.ReadLine();
     }
 
-    private static int MaxSubarraySum(int[] arr)
-    {
-        int maxSum = int.MinValue, currentSum = 0;
-
-        foreach (var num in arr)
-        {
-            currentSum = Math.Max(num, currentSum + num);
-            maxSum = Math.Max(maxSum, currentSum);
-        }
-
-        return maxSum;
-    }
+    
 
     private static int FindMaxSumOfSubArray(int[]? numbers)
     {
