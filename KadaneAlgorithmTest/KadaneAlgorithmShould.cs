@@ -10,7 +10,7 @@ public class KadaneAlgorithmShould
         KadaneAlgorithm kadaneAlgorithm = new KadaneAlgorithm
         {
             IntegerArray = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
-        };
+        }; 
 
         var largestSumOfSubArray = kadaneAlgorithm.GetLargestSumOfSubArray();
         Assert.Equal(6, largestSumOfSubArray);
